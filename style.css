@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
 
-
-html, body {
+html,
+body {
   margin: 0;
-  padding: 0;
+  border: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -11,11 +12,11 @@ html, body {
   grid-template-columns: 1fr;
   align-items: center;
   background-color: cadetblue;
-  text-align: center;
 }
 
 .title {
   padding: 50px 25px;
+  text-align: center;
 }
 
 h1 {
@@ -30,16 +31,12 @@ h4 {
 
 img {
   display: block;
-  width: 100%;
-  height: auto;
+}
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  picture img {
-    width: 50vw;  
-    height: auto;
-  }
 }
+
+
